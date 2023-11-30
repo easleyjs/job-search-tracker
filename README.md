@@ -1,14 +1,27 @@
-# job-search-tracker
-Jobster - A tracker for keeping track of job search progress: applications, contacts, and interviews.
+# Jobster - a job search tracker
 
--- Objective
+## Objective
 
--- Features
+To provide a tool that consolidates and streamlines information for the job search in one central location.
 
--- Tech Stack (front-end and backend)
+## Features
 
--- MVP
+Will keep track of applications/company info, interviews, contacts/recruiters, and also Lessons Learned.
 
--- Wireframe
+## Tech Stack (front-end and backend)
 
--- Data Model
+Front-end will be Vite/React/Redux, with an emphasis on Redux Toolkit and Middleware to communicate with the back-end.
+
+Back-end will be primarily AWS-based - Lambdas, Dynamo DB, API Gateway.
+
+## MVP
+
+## Wireframe
+
+## Data Models
+- Company info
+- Applications
+- Interviews
+- Contacts
+- Recruiters
+- Lessons Learned
