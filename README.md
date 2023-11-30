@@ -14,7 +14,12 @@ Front-end will be Vite/React/Redux, with an emphasis on Redux Toolkit and Middle
 
 Back-end will be primarily AWS-based - Lambdas, Dynamo DB, API Gateway.
 
+## Dependencies
+
+react redux redux-toolkit axios
+
 ## MVP
+Phase 1 - Applications and Company Info
 
 ## Wireframe
 
