@@ -26,24 +26,42 @@ Phase 1 - Applications and Company Info
 ## Data Models
 - Company info
   -- Company Name
+  
   -- Description
+  
   -- Website
+  
 - Applications
   -- Position
+  
   -- Applied
+  
   -- Company (Foreign Key)
+  
   -- URL
+  
 - Interviews
   -- Date
+  
   -- Company (Foreign Key)
+  
   -- Note
+  
   -- Lessons Learned
+  
 - Contacts
+  
   -- Application
+  
   -- Person Contacted
+  
   -- Company (Foreign Key)
+  
   -- Date
+  
   -- Notes
+  
 - Recruiters
 - Lessons Learned
+  
   -- Application (Foreign Key)
