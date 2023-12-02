@@ -25,6 +25,7 @@ Phase 1 - Applications and Company Info
 
 ## Data Models
 - Company info
+  
   -- Company Name
   
   -- Description
@@ -32,6 +33,7 @@ Phase 1 - Applications and Company Info
   -- Website
   
 - Applications
+  
   -- Position
   
   -- Applied
@@ -41,6 +43,7 @@ Phase 1 - Applications and Company Info
   -- URL
   
 - Interviews
+  
   -- Date
   
   -- Company (Foreign Key)
