@@ -1,8 +1,70 @@
-# React + Vite
+# Jobster - a job search tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+To provide a tool that consolidates and streamlines information for the job search in one central location.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+Will keep track of applications/company info, interviews, contacts/recruiters, and also Lessons Learned.
+
+## Tech Stack (front-end and backend)
+
+Front-end will be Vite/React/Redux, with an emphasis on Redux Toolkit and Middleware to communicate with the back-end.
+
+Back-end will be primarily AWS-based - Lambdas, Dynamo DB, API Gateway.
+
+## Dependencies
+
+react redux redux-toolkit axios
+
+## MVP
+Phase 1 - Applications and Company Info
+
+## Wireframe
+
+## Data Models
+- Company info
+  
+  -- Company Name
+  
+  -- Description
+  
+  -- Website
+  
+- Applications
+  
+  -- Position
+  
+  -- Applied
+  
+  -- Company (Foreign Key)
+  
+  -- URL
+  
+- Interviews
+  
+  -- Date
+  
+  -- Company (Foreign Key)
+  
+  -- Note
+  
+  -- Lessons Learned
+  
+- Contacts
+  
+  -- Application
+  
+  -- Person Contacted
+  
+  -- Company (Foreign Key)
+  
+  -- Date
+  
+  -- Notes
+  
+- Recruiters
+- Lessons Learned
+  
+  -- Application (Foreign Key)
