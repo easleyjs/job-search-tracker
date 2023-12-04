@@ -24,7 +24,7 @@ Phase 1 - Applications and Company Info
 ## Wireframe
 
 ## Data Models
-- Company info
+### Company info
   
   -- Company Name
   
@@ -32,13 +32,13 @@ Phase 1 - Applications and Company Info
   
   -- Website
 
-Example:
+**Example:**
 
 `{ name: 'XYZ Corp.',
      description: 'XYZ Corp. makes the finest widgets in the land.',
      website: 'http://www.xyz.com' }`
   
-- Applications
+### Applications
   
   -- Position
   
@@ -46,9 +46,13 @@ Example:
   
   -- Company (Foreign Key)
   
-  -- URL
-  
-- Interviews
+  -- URL (URL to job posting, if applicable.)
+
+**Example:**
+
+`{ position: 'Software Developer', applied: '1/11/2024', company: '<company id>', url: 'http://www.jobs.com/1234' }`
+
+### Interviews
   
   -- Date
   
@@ -57,8 +61,12 @@ Example:
   -- Note
   
   -- Lessons Learned
+
+**Example:**
+
+`{ date: '2/1/2024', company: '<company id>', poc: 'Jane Smith', notes: 'Offered job as Software Engineer 2', lessons_learned: 'Don't wear picasso tie next time.' }`
   
-- Contacts
+### Contacts
   
   -- Application
   
@@ -70,7 +78,7 @@ Example:
   
   -- Notes
   
-- Recruiters
-- Lessons Learned
+### Recruiters
+### Lessons Learned
   
   -- Application (Foreign Key)
