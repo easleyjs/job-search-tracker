@@ -26,11 +26,11 @@ Phase 1 - Applications and Company Info
 ## Data Models
 ### Company info
   
-  -- Company Name
+  - Company Name
   
-  -- Description
+  - Description
   
-  -- Website
+  - Website
 
 **Example:**
 
@@ -40,13 +40,13 @@ Phase 1 - Applications and Company Info
   
 ### Applications
   
-  -- Position
+  - Position
   
-  -- Applied
+  - Applied
   
-  -- Company (Foreign Key)
+  - Company (Foreign Key)
   
-  -- URL (URL to job posting, if applicable.)
+  - URL (URL to job posting, if applicable.)
 
 **Example:**
 
@@ -54,15 +54,15 @@ Phase 1 - Applications and Company Info
 
 ### Interviews
   
-  -- Date
+  - Date
   
-  -- Company (Foreign Key)
+  - Company (Foreign Key)
 
-  -- POC (Point-of-contact/Person you interviewed with.)
+  - POC (Point-of-contact/Person you interviewed with.)
   
-  -- Notes
+  - Notes
   
-  -- Lessons Learned
+  - Lessons Learned
 
 **Example:**
 
@@ -70,17 +70,17 @@ Phase 1 - Applications and Company Info
   
 ### Contacts
   
-  -- Name
+  - Name
 
-  -- Type (Recruiter/Manager/Other)
+  - Type (Recruiter/Manager/Other)
   
-  -- Company (Foreign Key)
+  - Company (Foreign Key)
   
-  -- Notes
+  - Notes
 
-  -- Email
+  - Email
 
-  -- Number
+  - Number
 
 **Example:**
 
@@ -89,4 +89,4 @@ Phase 1 - Applications and Company Info
 ### Recruiters
 ### Lessons Learned
   
-  -- Application (Foreign Key)
+  - Application (Foreign Key)
