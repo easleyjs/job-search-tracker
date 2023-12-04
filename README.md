@@ -34,13 +34,11 @@ Phase 1 - Applications and Company Info
 
 Example:
 
-`{
-    name: 'XYZ Corp.',
-    
-    description: 'XYZ Corp. makes the finest widgets in the land.',
-    
-    website: 'http://www.xyz.com'
-}`
+`{`
+    `name: 'XYZ Corp.',`
+    `description: 'XYZ Corp. makes the finest widgets in the land.',`
+    `website: 'http://www.xyz.com'`
+`}`
   
 - Applications
   
