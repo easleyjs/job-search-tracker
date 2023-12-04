@@ -57,8 +57,10 @@ Phase 1 - Applications and Company Info
   -- Date
   
   -- Company (Foreign Key)
+
+  -- POC (Point-of-contact/Person you interviewed with.)
   
-  -- Note
+  -- Notes
   
   -- Lessons Learned
 
@@ -68,15 +70,21 @@ Phase 1 - Applications and Company Info
   
 ### Contacts
   
-  -- Application
-  
-  -- Person Contacted
+  -- Name
+
+  -- Type (Recruiter/Manager/Other)
   
   -- Company (Foreign Key)
   
-  -- Date
-  
   -- Notes
+
+  -- Email
+
+  -- Number
+
+**Example:**
+
+`{ name: 'Jane Smith', type: 'Manager', company: '<company id>', notes: '', email: 'smith@biz.com', number: '555-555-5555' }`
   
 ### Recruiters
 ### Lessons Learned
