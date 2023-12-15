@@ -23,6 +23,13 @@ Phase 1 - Applications and Company Info
 
 ## Wireframe
 
+## Endpoints
+### /company
+### /applications
+### /interviews
+### /contacts
+### /lessons
+
 ## Data Models
 ### Company info
   
@@ -86,7 +93,6 @@ Phase 1 - Applications and Company Info
 
 `{ name: 'Jane Smith', type: 'Manager', company: '<company id>', notes: '', email: 'smith@biz.com', number: '555-555-5555' }`
   
-### Recruiters
 ### Lessons Learned
   
   - Application (Foreign Key)
